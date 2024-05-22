@@ -3,6 +3,7 @@ import imageOne from "../../images/marian-kroell-unsplash-1.jpg";
 
 export const initialCards = [
   {
+    _id: 1,
     category: "Category | Marketing",
     image: imageTwo,
     author: "Adam Sandler",
@@ -11,6 +12,7 @@ export const initialCards = [
       "How can we help your technology and services business develop a revenue engine based",
   },
   {
+    _id: 2,
     category: "Category",
     image: imageOne,
     author: "Adam Sandler",
@@ -19,6 +21,7 @@ export const initialCards = [
       "How can we help your technology and services business develop a revenue engine based",
   },
   {
+    _id: 3,
     category: "Category | Development",
     image: imageTwo,
     author: "Adam Sandler",
@@ -27,6 +30,7 @@ export const initialCards = [
       "How can we help your technology and services business develop a revenue engine based",
   },
   {
+    _id: 4,
     category: "Category | Marketing",
     image: imageOne,
     author: "Adam Sandler",
@@ -35,6 +39,7 @@ export const initialCards = [
       "How can we help your technology and services business develop a revenue engine based",
   },
   {
+    _id: 5,
     category: "Category | Marketing",
     image: imageTwo,
     author: "Adam Sandler",
@@ -43,6 +48,7 @@ export const initialCards = [
       "How can we help your technology and services business develop a revenue engine based",
   },
   {
+    _id: 6,
     category: "Category",
     image: imageOne,
     author: "Adam Sandler",

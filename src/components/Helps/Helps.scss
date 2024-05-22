@@ -1,0 +1,40 @@
+.helps {
+    background-color: #010101;
+
+    &__info {
+        max-width: 1140px;
+        display: flex;
+        justify-content: space-between;
+        margin: 100px auto;
+    }
+
+    &__container {
+        max-width: 555px;
+        padding:  26px 26px 26px 0;
+    }
+    &__title {
+        margin: 0;
+        font-size: 62px;
+        font-weight: 700;
+        line-height: 1.1;
+        letter-spacing: 1.4px;
+        color: #00B6DD;
+        }
+    &__description {
+        margin: 22px 0 40px;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 1.4;
+        letter-spacing: 1.2px;
+        color: #FFFFFF;
+    }
+    &__buttons {
+        display: flex;
+        gap: 16px;
+    }
+    &__image {
+        width: 458px;
+        height: 380px;
+        object-fit: cover;
+    }
+}
