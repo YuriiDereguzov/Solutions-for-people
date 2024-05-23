@@ -10,6 +10,7 @@ export const initialCards = [
     title: "Solutions for people like you like people",
     description:
       "How can we help your technology and services business develop a revenue engine based",
+    color: "light",
   },
   {
     _id: 2,
@@ -19,6 +20,7 @@ export const initialCards = [
     title: "Solutions for people like you like people",
     description:
       "How can we help your technology and services business develop a revenue engine based",
+    color: "light",
   },
   {
     _id: 3,
@@ -28,6 +30,7 @@ export const initialCards = [
     title: "Solutions for people like",
     description:
       "How can we help your technology and services business develop a revenue engine based",
+    color: "blue",
   },
   {
     _id: 4,
@@ -37,6 +40,7 @@ export const initialCards = [
     title: "Solutions for people like you like people",
     description:
       "How can we help your technology and services business develop a revenue engine based",
+    color: "blue",
   },
   {
     _id: 5,
@@ -46,6 +50,7 @@ export const initialCards = [
     title: "Solutions for people like",
     description:
       "How can we help your technology and services business develop a revenue engine based",
+    color: "light",
   },
   {
     _id: 6,
@@ -55,5 +60,6 @@ export const initialCards = [
     title: "Solutions for people like you like people",
     description:
       "How can we help your technology and services business develop a revenue engine based",
+    color: "blue",
   },
 ];

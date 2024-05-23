@@ -13,15 +13,13 @@ export const Helps = () => {
             revenue engine based on Hubspot?
           </p>
           <div className="helps__buttons">
-            <button className="card__button">Call to action</button>
+            <button className="card__button card__badge_light">
+              Call to action
+            </button>
             <button className="card__button">Call to action</button>
           </div>
         </div>
-        <img
-            className="helps__image"
-            src={imageTwo}
-            alt="Картинка кофе"
-          />
+        <img className="helps__image" src={imageTwo} alt="Картинка кофе" />
       </div>
     </section>
   );
