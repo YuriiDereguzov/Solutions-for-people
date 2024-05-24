@@ -3,11 +3,15 @@ import { Cards } from "../Cards/Cards";
 import { Header } from "../Header/Header";
 import { Helps } from "../Helps/Helps";
 import { initialCards } from "../Utils/constants";
-
 // import { Main } from "../Main/Main";
 import "./App.scss";
 
 function App() {
+  // const filteredOne992 = initialCards.slice(0, 4);
+  // const filteredTwo992 = initialCards.slice(0, 2);
+  // const filteredOne320 = initialCards.slice(0, 2);
+  // const filteredTwo320 = initialCards.slice(0, 1);
+
   const filtredCards = initialCards.slice(0, 3);
   const moreCardsButton = true;
 

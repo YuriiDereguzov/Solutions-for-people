@@ -19,3 +19,55 @@
     cursor: pointer;
   }
 }
+
+// @media screen and (max-width: 992px) {
+@media screen and (max-width: 1150px) {
+  .cards {
+    max-width: 95%;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 80px auto 80px;
+  }
+}
+
+// @media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
+  .cards {
+    margin: 60px auto 60px;
+
+    &__buttons {
+      top: 106%;
+    }
+  }
+}
+
+// @media screen and (max-width: 576px) {
+@media screen and (max-width: 650px) {
+  .cards {
+    margin: 50px auto;
+
+    &__buttons {
+      top: 104%;
+    }
+  }
+}
+
+// @media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 92%;
+
+    &__buttons {
+      left: 42%;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cards {
+
+    &__buttons {
+      left: 38%;
+    }
+  }
+}

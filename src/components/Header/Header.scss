@@ -29,3 +29,48 @@
     z-index: 0;
   }
 }
+// @media screen and (max-width: 992px) {
+@media screen and (max-width: 1100px) {
+  .header {
+    min-height: 340px;
+
+    &__title {
+      max-width: 617px;
+      font-size: 54px;
+      line-height: 1.1;
+      letter-spacing: 1.2px;
+      text-align: center;
+    }
+  }
+}
+
+// @media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
+  .header {
+    min-height: 276px;
+
+    &__title {
+      max-width: 470px;
+      font-size: 46px;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+// @media screen and (max-width: 576px) {
+@media screen and (max-width: 650px) {
+  .header {
+    min-height: 236px;
+  }
+}
+
+// @media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
+  .header {
+    min-height: 274px;
+
+    &__title {
+      max-width: 290px;
+    }
+  }
+}
