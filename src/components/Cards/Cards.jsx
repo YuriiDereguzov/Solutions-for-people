@@ -14,10 +14,18 @@ export const Cards = (props) => {
       {props.moreCardsButton ? (
         <div className="cards__buttons">
           <button className="cards__button">
-            <img src={leftIcon} alt="Стрелка влево" />
+            <img
+              src={leftIcon}
+              alt="Стрелка влево"
+              onClick={props.handleClickLastCard}
+            />
           </button>
           <button className="cards__button">
-            <img src={rightIcon} alt="Стрелка вправо" />
+            <img
+              src={rightIcon}
+              alt="Стрелка вправо"
+              onClick={props.handleClickNextCard}
+            />
           </button>
         </div>
       ) : (

@@ -21,8 +21,6 @@
     }
   }
   &__content {
-    // margin: 20px 0 30px;
-    // min-height: 178px;
     margin: 20px 0 0;
     min-height: 208px;
   }
@@ -60,11 +58,8 @@
   }
 }
 
-// @media screen and (max-width: 992px) {
 @media screen and (max-width: 1150px) {
   .card {
-    // margin: 0 36px 0;
-
     &__title {
       font-size: 20px;
     }
@@ -81,7 +76,6 @@
   }
 }
 
-// @media screen and (max-width: 768px) {
 @media screen and (max-width: 800px) {
   .card {
     &__badge {
@@ -118,7 +112,6 @@
   }
 }
 
-// @media screen and (max-width: 576px) {
 @media screen and (max-width: 650px) {
   .card {
     padding: 16px 16px 20px;

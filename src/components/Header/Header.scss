@@ -29,7 +29,7 @@
     z-index: 0;
   }
 }
-// @media screen and (max-width: 992px) {
+
 @media screen and (max-width: 1100px) {
   .header {
     min-height: 340px;
@@ -44,7 +44,6 @@
   }
 }
 
-// @media screen and (max-width: 768px) {
 @media screen and (max-width: 800px) {
   .header {
     min-height: 276px;
@@ -57,14 +56,12 @@
   }
 }
 
-// @media screen and (max-width: 576px) {
 @media screen and (max-width: 650px) {
   .header {
     min-height: 236px;
   }
 }
 
-// @media screen and (max-width: 320px) {
 @media screen and (max-width: 500px) {
   .header {
     min-height: 274px;
