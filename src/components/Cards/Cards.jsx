@@ -15,6 +15,7 @@ export const Cards = (props) => {
         <div className="cards__buttons">
           <button className="cards__button">
             <img
+              className="cards__btn"
               src={leftIcon}
               alt="Стрелка влево"
               onClick={props.handleClickLastCard}
@@ -22,6 +23,7 @@ export const Cards = (props) => {
           </button>
           <button className="cards__button">
             <img
+              className="cards__btn"
               src={rightIcon}
               alt="Стрелка вправо"
               onClick={props.handleClickNextCard}

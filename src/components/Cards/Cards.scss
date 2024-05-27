@@ -52,6 +52,9 @@
     &__buttons {
       top: 104%;
     }
+    &__btn {
+      width: 10px;
+    }
   }
 }
 
@@ -62,6 +65,10 @@
 
     &__buttons {
       left: 42%;
+    }
+
+    &__btn {
+      width: 12px;
     }
   }
 }

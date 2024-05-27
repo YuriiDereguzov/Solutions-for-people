@@ -1,12 +1,14 @@
-# Проект Solutions for people
+# Проект Solutions-for-people
 
 ## Введение
 
+Тестовое задание выполненое для компании Octo.
+
 ## Ссылки на проект
 
-[GitHub] —
+[GitHub] — https://github.com/YuriiDereguzov/solutions-for-people
 
-[Deploy] — []( "Ссылка на сайт")
+[Deploy] — [solutions-for-people](https://yuriidereguzov.github.io/solutions-for-people/ "Ссылка на сайт")
 
 ## Технологии, инструменты и стек:
 
@@ -23,11 +25,13 @@
 ## Интерфейс:
 
 <ul>
-  <li></li>
-  <li></li>
+  <li>Отображение списка карточек</li>
+  <li>Слайдер</li>
 </ul>
 
 ## Статус проекта:
+
+Возможны доработки.
 
 # Getting Started with Create React App
 
