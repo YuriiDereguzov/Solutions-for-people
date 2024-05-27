@@ -55,6 +55,10 @@
     border: none;
     margin-top: auto;
     cursor: pointer;
+
+    &:hover {
+      box-shadow: inset 0px 0px 10px #000000;
+    }
   }
 }
 

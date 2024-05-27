@@ -17,6 +17,13 @@
     border: none;
     background-color: #ffffff;
     cursor: pointer;
+
+    &:hover {
+      box-shadow: inset 0px 0px 10px #000000;
+      border-radius: 10px;
+      background-color: aqua;
+      height: 29px;
+    }
   }
 }
 

@@ -8,13 +8,15 @@ import {
   //Порог смены экрана
   SCREEN_WIDTH_1150,
   SCREEN_WIDTH_500,
+  //Стандартный индекс
+  CARD_INDEX_DEFAULT,
   //Стандартное колличество карточек на странице
-  INITIAL_COUNT_MOVIES_FOR_DEFAULT,
-  INITIAL_COUNT_MOVIES_FOR_MOBILE,
-  INITIAL_COUNT_MOVIES_FOR_DESKTOP,
-  INITIAL_COUNT_MOVIES_FOR_DEFAULT_MAIN,
-  INITIAL_COUNT_MOVIES_FOR_MOBILE_MAIN,
-  INITIAL_COUNT_MOVIES_FOR_DESKTOP_MAIN,
+  INITIAL_COUNT_CARDS_FOR_DEFAULT,
+  INITIAL_COUNT_CARDS_FOR_MOBILE,
+  INITIAL_COUNT_CARDS_FOR_DESKTOP,
+  INITIAL_COUNT_CARDS_FOR_DEFAULT_MAIN,
+  INITIAL_COUNT_CARDS_FOR_MOBILE_MAIN,
+  INITIAL_COUNT_CARDS_FOR_DESKTOP_MAIN,
 } from "../Utils/constants";
 
 function App() {
@@ -30,14 +32,17 @@ function App() {
 
   function resize() {
     if (window.innerWidth > SCREEN_WIDTH_1150) {
-      setCardsAmount(INITIAL_COUNT_MOVIES_FOR_DESKTOP);
-      setCardsAmountMain(INITIAL_COUNT_MOVIES_FOR_DESKTOP_MAIN);
+      setCardIndex(CARD_INDEX_DEFAULT);
+      setCardsAmount(INITIAL_COUNT_CARDS_FOR_DESKTOP);
+      setCardsAmountMain(INITIAL_COUNT_CARDS_FOR_DESKTOP_MAIN);
     } else if (window.innerWidth > SCREEN_WIDTH_500) {
-      setCardsAmount(INITIAL_COUNT_MOVIES_FOR_MOBILE);
-      setCardsAmountMain(INITIAL_COUNT_MOVIES_FOR_MOBILE_MAIN);
+      setCardIndex(CARD_INDEX_DEFAULT);
+      setCardsAmount(INITIAL_COUNT_CARDS_FOR_MOBILE);
+      setCardsAmountMain(INITIAL_COUNT_CARDS_FOR_MOBILE_MAIN);
     } else {
-      setCardsAmount(INITIAL_COUNT_MOVIES_FOR_DEFAULT);
-      setCardsAmountMain(INITIAL_COUNT_MOVIES_FOR_DEFAULT_MAIN);
+      setCardIndex(CARD_INDEX_DEFAULT);
+      setCardsAmount(INITIAL_COUNT_CARDS_FOR_DEFAULT);
+      setCardsAmountMain(INITIAL_COUNT_CARDS_FOR_DEFAULT_MAIN);
     }
   }
 
@@ -50,14 +55,14 @@ function App() {
       setCardIndex(cardIndex + 1);
       setCardsAmount(cardsAmount + 1);
     }
-    return cardsAmount;
+    return filtredCards;
   };
   const handleClickLastCard = () => {
     if (cardIndex !== 0) {
       setCardIndex(cardIndex - 1);
       setCardsAmount(cardsAmount - 1);
     }
-    return cardIndex;
+    return filtredCards;
   };
 
   return (
