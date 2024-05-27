@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/solutions-for-people/static/css/main.64df80d5.css",
+    "main.js": "/solutions-for-people/static/js/main.a3027dc8.js",
+    "static/media/NotoSans-Regular.ttf": "/solutions-for-people/static/media/NotoSans-Regular.e49f7cc81283eef694a3.ttf",
+    "static/media/NotoSans-Bold.ttf": "/solutions-for-people/static/media/NotoSans-Bold.5f7ac340604afb2500f1.ttf",
+    "static/media/Inter-Medium.woff": "/solutions-for-people/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
+    "static/media/Inter-Black.woff": "/solutions-for-people/static/media/Inter-Black.c6938660eec019fefd68.woff",
+    "static/media/Inter-Regular.woff": "/solutions-for-people/static/media/Inter-Regular.8c206db99195777c6769.woff",
+    "static/media/Inter-Medium.woff2": "/solutions-for-people/static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
+    "static/media/Inter-Black.woff2": "/solutions-for-people/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
+    "static/media/Inter-Regular.woff2": "/solutions-for-people/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
+    "static/media/marian-kroell-unsplash-1.jpg": "/solutions-for-people/static/media/marian-kroell-unsplash-1.71531094a9c886bef400.jpg",
+    "static/media/chris-yang-unsplash-2.jpg": "/solutions-for-people/static/media/chris-yang-unsplash-2.5e0d363d5fc97352f620.jpg",
+    "index.html": "/solutions-for-people/index.html",
+    "static/media/Left-icon.svg": "/solutions-for-people/static/media/Left-icon.970308f4d5b831759080ee9150b29b77.svg",
+    "static/media/Right-icon.svg": "/solutions-for-people/static/media/Right-icon.9bd5aaec7f8edd125218107df88b428e.svg",
+    "main.64df80d5.css.map": "/solutions-for-people/static/css/main.64df80d5.css.map",
+    "main.a3027dc8.js.map": "/solutions-for-people/static/js/main.a3027dc8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64df80d5.css",
+    "static/js/main.a3027dc8.js"
+  ]
+}
